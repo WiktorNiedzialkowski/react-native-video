@@ -24,6 +24,7 @@ export type ReactVideoSourceProperties = {
   uri?: string;
   isNetwork?: boolean;
   isAsset?: boolean;
+  isLocalAssetFile?: boolean;
   shouldCache?: boolean;
   type?: string;
   mainVer?: number;
@@ -40,6 +41,7 @@ export type ReactVideoSourceProperties = {
   textTracks?: TextTracks;
   ad?: AdConfig;
   minLoadRetryCount?: number; // Android
+  bufferConfig?: BufferConfig;
 };
 
 export type ReactVideoSource = Readonly<
@@ -289,6 +291,7 @@ export interface ReactVideoProps extends ReactVideoEvents, ViewProps {
   adLanguage?: ISO639_1;
   audioOutput?: AudioOutput; // Mobile
   automaticallyWaitsToMinimizeStalling?: boolean; // iOS
+  /** @deprecated Use source.bufferConfig */
   bufferConfig?: BufferConfig; // Android
   bufferingStrategy?: BufferingStrategyType;
   chapters?: Chapters[]; // iOS
@@ -312,7 +315,7 @@ export interface ReactVideoProps extends ReactVideoEvents, ViewProps {
   mixWithOthers?: EnumValues<MixWithOthersType>; // iOS
   muted?: boolean;
   paused?: boolean;
-  pictureInPicture?: boolean; // iOS
+  enterPictureInPictureOnLeave?: boolean;
   playInBackground?: boolean;
   playWhenInactive?: boolean; // iOS
   poster?: string | ReactVideoPoster; // string is deprecated
