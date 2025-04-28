@@ -70,7 +70,7 @@ export default () => (
 
 
 ## 🧩 Optional modules
-<img src="[docs/assets/baners/sdk-banner-retina.png](https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/WiktorNiedzialkowski-patch-3/docs/assets/baners/sdk-banner-retina.png)" href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=banner" alt="Offline SDK" width="100%">
+<img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/WiktorNiedzialkowski-patch-3/docs/assets/baners/sdk-banner-retina.png" href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=banner" alt="Offline SDK" width="100%">
 
 ### 1 · 📥 Offline SDK
 Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.
