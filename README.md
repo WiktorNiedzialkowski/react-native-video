@@ -67,29 +67,29 @@ export default () => (
 
 
 
-## 🧩 Optional modules</h2>
 
-<table width="100%">
-  <tr>
-    <td width="65%" valign="top" style="padding-right: 20px;">
-      <h3>1 · 📥 Offline SDK</h3>
-      <p>Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.</p>
-      <ul>
-        <li>Track selection (bitrate, audio, subtitles)</li>
-        <li>Pause / resume & background queueing</li>
-        <li>Expiration windows & auto-cleanup</li>
-        <li>Built for <strong>Android & iOS</strong></li>
-        <li>→ <a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text">SDK documentation</a></li>
-      </ul>
-    </td>
-    <td width="35%" valign="top">
-      <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="Offline SDK" style="max-width: 100%; display: block;" />
-    </td>
-  </tr>
-</table>
+## 🧩 Optional modules
+
+<a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=banner" target="_blank">
+  <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="Offline SDK Preview" width="35%" align="right" />
+</a>
+
+### 1 · 📥 Offline SDK
+
+Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.
+
+- Track selection (bitrate, audio, subtitles)  
+- Pause / resume & background queueing  
+- Expiration windows & auto-cleanup  
+- Built for **Android & iOS**  
+- → [SDK documentation](https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text)
+
+---
 
 ### 2 · 🧪 Plugin architecture
-Write your own plugins to extend download logic, attach analytics or add custom workflows - **without forking** the core SDK. [Read more](https://docs.thewidlarzgroup.com/react-native-video/other/plugin)
+
+Write your own plugins to extend download logic, attach analytics or add custom workflows – **without forking** the core SDK.  
+[Read more](https://docs.thewidlarzgroup.com/react-native-video/other/plugin)
 
 
 
