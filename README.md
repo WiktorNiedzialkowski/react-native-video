@@ -1,6 +1,6 @@
 # react-native-video  
 
-<img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/WiktorNiedzialkowski-patch-3/docs/assets/baners/rnv-banner-retina.png" href="https://thewidlarzgroup.com?utm_source=rnv&utm_medium=readme&utm_id=banner" alt="React Native Video Component - with DRM (Widevine & FairPlay), HLS, DASH, Offline and Video Download Support" width="100%">
+<img src="./rnv-banner-retina.png" href="https://thewidlarzgroup.com?utm_source=rnv&utm_medium=readme&utm_id=banner" alt="React Native Video Component - with DRM (Widevine & FairPlay), HLS, DASH, Offline and Video Download Support" width="100%">
 
 The most battle-tested open-source video player component for React Native, powering apps with 10M+ users.
 
@@ -21,14 +21,13 @@ The most battle-tested open-source video player component for React Native, powe
 - 📱 Plays all video formats natively supported by iOS/Android 
 - ▶️ Local **and** remote playback  
 - 🔁 Streaming: HLS • DASH • SmoothStreaming  
-- 🔐 DRM: Widevine & FairPlay (via optional modules)  
+- 🔐 DRM: Widevine & FairPlay ([See free DRM stream example](https://www.thewidlarzgroup.com/services/free-drm-token-generator-for-video?utm_source=rnv&utm_medium=readme&utm_id=free-drm))
 - 📴 **Offline playback**, video download, side-tracks, side-captions support (via [optional SDK](https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=features-text))  
 - 🎚️ Fine-grained control over tracks, buffering & events
-- ⚛️ supports new React Native architecture  
 - 🧩 **Expo plugin** support
-- 📖 [Extensive documentation](https://docs.thewidlarzgroup.com/react-native-video/)
-- 📦 **Guided examples**, DRM example with
-[free DRM stream](https://www.thewidlarzgroup.com/services/free-drm-token-generator-for-video?utm_source=rnv&utm_medium=readme&utm_id=free-drm)
+- 🌐 Basic Web Support 
+- 📱 Picture in Picture
+- 📺 TV Support
 
 
 
@@ -36,8 +35,8 @@ The most battle-tested open-source video player component for React Native, powe
 
 | Version | State | Notes |
 |---------|-------|-------|
-| **v5 and lower** | ❌ *EOL* | No new development. Commercial *maintenance & support* available |
-| **v6** | 🛠 *Maintenance by community and [TWG](https://www.thewidlarzgroup.com/?utm_source=rnv&utm_medium=readme&utm_id=table)* | Accepting PRs. Supports new React Native architecture through an interop layer |
+| **v5 and lower** | ❌ *EOL* | No new development. [Commercial *maintenance & support* available](https://www.thewidlarzgroup.com/blog/react-native-video-upgrade-challenges-custom-maintenance-support?utm_source=rnv&utm_medium=readme&utm_id=upgrade-blog&utm_campaign=v5) |
+| **v6** | 🛠 *Maintenance by community and [TWG](https://www.thewidlarzgroup.com/?utm_source=rnv&utm_medium=readme&utm_id=table)* | Accepting PRs. Fixing bugs.
 | **v7** | 🚀 *In active development by [TWG](https://www.thewidlarzgroup.com/?utm_source=rnv&utm_medium=readme&utm_id=table)* | Public release *soon™*. Supports the new React Native architecture. [Become a **sponsor** for early access.](https://www.thewidlarzgroup.com/?utm_source=rnv&utm_medium=readme&utm_campaign=v7earlyaccess&utm_id=table#Contact) |
 
 > **react-native-video** is a **community-based project** maintained by [TWG](https://www.thewidlarzgroup.com/?utm_source=rnv&utm_medium=readme&utm_id=comment-text) and an awesome open-source community.  
@@ -48,11 +47,8 @@ The most battle-tested open-source video player component for React Native, powe
 ## 🚀 Quick start
 
 ```bash
-# 1 Install
 yarn add react-native-video
-# 2 Link native deps (RN < 0.60) or autolink (RN ≥ 0.60)
 cd ios && pod install
-# 3 Use it!
 ```
 
 ```tsx
@@ -70,7 +66,10 @@ export default () => (
 
 
 ## 🧩 Optional modules
-<img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/WiktorNiedzialkowski-patch-3/docs/assets/baners/sdk-banner-retina.png" href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=banner" alt="Offline SDK" width="100%">
+
+
+<div style="display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 250px;">
 
 ### 1 · 📥 Offline SDK
 Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.
@@ -80,6 +79,12 @@ Enable offline streaming with full control over downloads, license lifecycle, se
 * Expiration windows & auto-cleanup  
 * Built for **Android & iOS**  
 * → [SDK documentation](https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text)
+  </div>
+  <div style="flex: 0 0 220px; min-width: 180px;">
+    <img src="./sdk-banner-retina-portrait.png" alt="Offline SDK Preview" width="100%">
+  </div>
+</div>
+
 
 ### 2 · 🧪 Plugin architecture
 Write your own plugins to extend download logic, attach analytics or add custom workflows - **without forking** the core SDK. [Read more](https://docs.thewidlarzgroup.com/react-native-video/other/plugin)
@@ -88,24 +93,28 @@ Write your own plugins to extend download logic, attach analytics or add custom 
 
 ## 💼 TWG services & products
 
-| Offering | Description | Link |
-|----------|-------------|------|
-| **Professional Support Packages** | Priority bug-fixes, guaranteed SLAs, roadmap influence | [<https://www.thewidlarzgroup.com/contact>](https://www.thewidlarzgroup.com/services/free-drm-token-generator-for-video?utm_source=rnv&utm_medium=readme&utm_id=free-drm) |
-| **Issue Booster** | Pay‑per‑issue fast‑track for urgent fixes | [<https://www.thewidlarzgroup.com/issue-boost>](https://www.thewidlarzgroup.com/issue-boost?utm_source=rnv&utm_medium=readme) |
-| **Offline Video SDK** | Plug‑and‑play secure download solution for iOS & Android | [<https://www.thewidlarzgroup.com/offline-video-sdk>](https://www.thewidlarzgroup.com/offline-video-sdk/?utm_source=rnv&utm_medium=readme&utm_campaign=downloading&utm_id=offline-video-sdk-link) |
-| **Integration Support** | Hands‑on help integrating video, DRM & offline into your app | [<https://www.thewidlarzgroup.com/contact>](https://www.thewidlarzgroup.com/services/free-drm-token-generator-for-video?utm_source=rnv&utm_medium=readme&utm_id=free-drm)|
-| **Free DRM Token Generator** | Generate Widevine / FairPlay tokens for testing |  [<https://www.thewidlarzgroup.com/services/free-drm-token-generator-for-video>](https://www.thewidlarzgroup.com/services/free-drm-token-generator-for-video?utm_source=rnv&utm_medium=readme&utm_id=free-drm) |
-| **Ready Boilerplates** | Ready apps with background uploads, Offline HLS/DASH DRM, Video Frames Scrubbing, TikTok video roll, Frame Processor with Skia |  [<https://www.thewidlarzgroup.com/showcases>](https://www.thewidlarzgroup.com/showcases?utm_source=rnv&utm_medium=readme) |
+| Offering | Description |
+|----------|-------------|
+| [**Professional Support Packages**](https://www.thewidlarzgroup.com/services/free-drm-token-generator-for-video?utm_source=rnv&utm_medium=readme&utm_id=free-drm) | Priority bug-fixes, guaranteed SLAs, roadmap influence |
+| [**Issue Booster**](https://www.thewidlarzgroup.com/issue-boost?utm_source=rnv&utm_medium=readme) | Pay‑per‑issue fast‑track for urgent fixes |
+| [**Offline Video SDK**](https://www.thewidlarzgroup.com/offline-video-sdk/?utm_source=rnv&utm_medium=readme&utm_campaign=downloading&utm_id=offline-video-sdk-link) | Plug‑and‑play secure download solution for iOS & Android |
+| [**Integration Support**](https://www.thewidlarzgroup.com/contact?utm_source=rnv&utm_medium=readme&utm_id=free-drm) | Hands‑on help integrating video, DRM & offline into your app |
+| [**Free DRM Token Generator**](https://www.thewidlarzgroup.com/services/free-drm-token-generator-for-video?utm_source=rnv&utm_medium=readme&utm_id=free-drm) | Generate Widevine / FairPlay tokens for testing |
+| [**Ready Boilerplates**](https://www.thewidlarzgroup.com/showcases?utm_source=rnv&utm_medium=readme) | Ready apps with background uploads, Offline HLS/DASH DRM, Video Frames Scrubbing, TikTok video roll, Frame Processor with Skia |
+| [**React Native Video Upgrade Guide**](https://www.thewidlarzgroup.com/blog/react-native-video-upgrade-challenges-custom-maintenance-support?utm_source=rnv&utm_medium=readme&utm_id=upgrade-blog&utm_campaign=v7) | Common upgrade pitfalls & how to solve them |
 
 *See how [TWG](https://www.thewidlarzgroup.com/?utm_source=rnv&utm_medium=readme&utm_id=services-text) helped **Learnn** ship a world‑class player in record time - [case study](https://gitnation.com/contents/a-4-year-retrospective-lessons-learned-from-building-a-video-player-from-scratch-with-react-native).*
 
+## 📚 Documentation & Examples
+- 📖 [Extensive documentation](https://docs.thewidlarzgroup.com/react-native-video/)
+- 📦 **Guided examples**, DRM example with
+[free DRM stream](https://www.thewidlarzgroup.com/services/free-drm-token-generator-for-video?utm_source=rnv&utm_medium=readme&utm_id=free-drm)
 
 
 ## 📰 Community & media
 
 - 🗽 **React Summit US** - Learnn CTO explains how [TWG](https://www.thewidlarzgroup.com/?utm_source=rnv&utm_medium=readme&utm_id=community-media-text) Professional Services team fixed critical bugs and boosted video-player performance for their ed-tech platform. [Watch here »](https://gitnation.com/contents/a-4-year-retrospective-lessons-learned-from-building-a-video-player-from-scratch-with-react-native)  
 - 🧨 **Nitro Module v7 deep‑dive** - Krzysztof from [TWG](https://www.thewidlarzgroup.com/?utm_source=rnv&utm_medium=readme&utm_id=community-media-text) is explaining why v7 is being written in Nitro Modules [Watch here »](https://x.com/krzysztof_moch/status/1854162551946478051)  
-
 
 
 ## 🌍 Social
