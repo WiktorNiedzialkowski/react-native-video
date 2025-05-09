@@ -65,13 +65,13 @@ export default () => (
 
 
 
-## 🧩 Optional modules
 
+
+## 🧩 Optional modules
 
 <table>
   <tr>
     <td valign="top" width="60%">
-    
       <h3>1 · 📥 Offline SDK</h3>
       <p>Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.</p>
       <ul>
@@ -81,7 +81,6 @@ export default () => (
         <li>Built for <strong>Android & iOS</strong></li>
         <li>→ <a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text">SDK documentation</a></li>
       </ul>
-
     </td>
     <td width="40%">
       <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="Offline SDK Preview" width="100%">
