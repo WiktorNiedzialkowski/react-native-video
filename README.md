@@ -69,9 +69,10 @@ export default () => (
 
 ## 🧩 Optional modules</h2>
 
-<table style="width: 100%;">
+<p>
+<table>
   <tr>
-    <td style="vertical-align: top; width: 65%; padding-right: 20px;">
+    <td style="width: 65%; vertical-align: top; padding-right: 20px;">
       <h3>1 · 📥 Offline SDK</h3>
       <p>Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.</p>
       <ul>
@@ -82,11 +83,12 @@ export default () => (
         <li>→ <a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text">SDK documentation</a></li>
       </ul>
     </td>
-    <td style="vertical-align: top; width: 35%;">
+    <td style="width: 35%; vertical-align: top;">
       <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="Offline SDK Preview" width="100%">
     </td>
   </tr>
 </table>
+</p>
 
 ### 2 · 🧪 Plugin architecture
 Write your own plugins to extend download logic, attach analytics or add custom workflows - **without forking** the core SDK. [Read more](https://docs.thewidlarzgroup.com/react-native-video/other/plugin)
