@@ -69,9 +69,9 @@ export default () => (
 
 ## 🧩 Optional modules</h2>
 
-<table style="border: none; width: 100%;">
+<table style="width: 100%;">
   <tr>
-    <td style="vertical-align: top; width: 60%; padding-right: 20px;">
+    <td style="vertical-align: top; width: 65%; padding-right: 20px;">
       <h3>1 · 📥 Offline SDK</h3>
       <p>Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.</p>
       <ul>
@@ -82,7 +82,7 @@ export default () => (
         <li>→ <a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text">SDK documentation</a></li>
       </ul>
     </td>
-    <td style="vertical-align: top; width: 40%;">
+    <td style="vertical-align: top; width: 35%;">
       <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="Offline SDK Preview" width="100%">
     </td>
   </tr>
