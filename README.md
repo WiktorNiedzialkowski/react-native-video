@@ -68,22 +68,26 @@ export default () => (
 ## 🧩 Optional modules
 
 
-<div style="display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
-  <div style="flex: 1; min-width: 250px;">
+<table>
+  <tr>
+    <td valign="top" width="60%">
+    
+      <h3>1 · 📥 Offline SDK</h3>
+      <p>Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.</p>
+      <ul>
+        <li>Track selection (bitrate, audio, subtitles)</li>
+        <li>Pause / resume & background queueing</li>
+        <li>Expiration windows & auto-cleanup</li>
+        <li>Built for <strong>Android & iOS</strong></li>
+        <li>→ <a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text">SDK documentation</a></li>
+      </ul>
 
-### 1 · 📥 Offline SDK
-Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.
-
-* Track selection (bitrate, audio, subtitles)  
-* Pause / resume & background queueing  
-* Expiration windows & auto-cleanup  
-* Built for **Android & iOS**  
-* → [SDK documentation](https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text)
-  </div>
-  <div style="flex: 0 0 220px; min-width: 180px;">
-    <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="SDK Preview" width="100%">
-  </div>
-</div>
+    </td>
+    <td width="40%">
+      <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="Offline SDK Preview" width="100%">
+    </td>
+  </tr>
+</table>
 
 
 ### 2 · 🧪 Plugin architecture
