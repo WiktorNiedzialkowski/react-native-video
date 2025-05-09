@@ -71,8 +71,15 @@ export default () => (
 
 ### 1 · 📥 Offline SDK
 
+### 1 · 📥 Offline SDK
+
 <a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text">
-  <img align="right" width="280" src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="Offline SDK Preview">
+  <img 
+    align="right" 
+    width="280" 
+    style="max-height: 200px; max-width: 100%;" 
+    src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" 
+    alt="Offline SDK Preview">
 </a>
 
 Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.
