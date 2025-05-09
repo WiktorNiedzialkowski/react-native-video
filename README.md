@@ -1,6 +1,6 @@
 # react-native-video  
 
-<img src="./rnv-banner-retina.png" href="https://thewidlarzgroup.com?utm_source=rnv&utm_medium=readme&utm_id=banner" alt="React Native Video Component - with DRM (Widevine & FairPlay), HLS, DASH, Offline and Video Download Support" width="100%">
+<img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/rnv-banner-retina.png" href="https://thewidlarzgroup.com?utm_source=rnv&utm_medium=readme&utm_id=banner" alt="React Native Video Component - with DRM (Widevine & FairPlay), HLS, DASH, Offline and Video Download Support" width="100%">
 
 The most battle-tested open-source video player component for React Native, powering apps with 10M+ users.
 
@@ -81,7 +81,7 @@ Enable offline streaming with full control over downloads, license lifecycle, se
 * → [SDK documentation](https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text)
   </div>
   <div style="flex: 0 0 220px; min-width: 180px;">
-    <img src="./sdk-banner-retina-portrait.png" alt="Offline SDK Preview" width="100%">
+    <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="SDK Preview" width="100%">
   </div>
 </div>
 
