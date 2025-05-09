@@ -67,21 +67,26 @@ export default () => (
 
 
 
-## 🧩 Optional modules
+## 🧩 Optional modules</h2>
 
-### 1 · 📥 Offline SDK
-
-<a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text">
-  <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="Offline SDK Preview" width="300">
-</a>
-
-Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.
-
-- Track selection (bitrate, audio, subtitles)  
-- Pause / resume & background queueing  
-- Expiration windows & auto-cleanup  
-- Built for **Android & iOS**  
-- → [SDK documentation](https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text)
+<table style="border: none; width: 100%;">
+  <tr>
+    <td style="vertical-align: top; width: 60%; padding-right: 20px;">
+      <h3>1 · 📥 Offline SDK</h3>
+      <p>Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.</p>
+      <ul>
+        <li>Track selection (bitrate, audio, subtitles)</li>
+        <li>Pause / resume & background queueing</li>
+        <li>Expiration windows & auto-cleanup</li>
+        <li>Built for <strong>Android & iOS</strong></li>
+        <li>→ <a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text">SDK documentation</a></li>
+      </ul>
+    </td>
+    <td style="vertical-align: top; width: 40%;">
+      <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="Offline SDK Preview" width="100%">
+    </td>
+  </tr>
+</table>
 
 ### 2 · 🧪 Plugin architecture
 Write your own plugins to extend download logic, attach analytics or add custom workflows - **without forking** the core SDK. [Read more](https://docs.thewidlarzgroup.com/react-native-video/other/plugin)
