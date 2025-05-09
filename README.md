@@ -69,24 +69,19 @@ export default () => (
 
 ## 🧩 Optional modules
 
-<table>
-  <tr>
-    <td valign="top" width="60%">
-      <h3>1 · 📥 Offline SDK</h3>
-      <p>Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.</p>
-      <ul>
-        <li>Track selection (bitrate, audio, subtitles)</li>
-        <li>Pause / resume & background queueing</li>
-        <li>Expiration windows & auto-cleanup</li>
-        <li>Built for <strong>Android & iOS</strong></li>
-        <li>→ <a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text">SDK documentation</a></li>
-      </ul>
-    </td>
-    <td width="40%">
-      <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="Offline SDK Preview" width="100%">
-    </td>
-  </tr>
-</table>
+### 1 · 📥 Offline SDK
+
+<a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text">
+  <img align="right" width="280" src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-portrait.png" alt="Offline SDK Preview">
+</a>
+
+Enable offline streaming with full control over downloads, license lifecycle, secure storage and media access.
+
+- Track selection (bitrate, audio, subtitles)  
+- Pause / resume & background queueing  
+- Expiration windows & auto-cleanup  
+- Built for **Android & iOS**  
+- → [SDK documentation](https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text)
 
 
 ### 2 · 🧪 Plugin architecture
