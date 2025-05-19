@@ -1,6 +1,6 @@
 [![React Native Video Component](https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/rnv-banner-bigger.png)](https://thewidlarzgroup.com/?utm_source=rnv&utm_medium=readme&utm_id=banner)
 
-The most battle-tested open-source video player component for React Native — now with support for DRM, offline playback, HLS/DASH streaming, and more.
+The most battle-tested open-source video player component for React Native - now with support for DRM, offline playback, HLS/DASH streaming, and more.
 
 
 ## 🔍 Features
@@ -12,7 +12,7 @@ The most battle-tested open-source video player component for React Native — n
 | **DRM Support** | Widevine & FairPlay, [Free DRM example stream](https://www.thewidlarzgroup.com/services/free-drm-token-generator-for-video?utm_source=rnv&utm_medium=readme&utm_id=features-drm) |
 | **Offline Playback** | Secure downloads, captions, and side-tracks via [Offline SDK](https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=features-sdk) |
 | **Full Control** | Track selection, events, buffering |
-| **Cross‑platform** | Web, Expo, Picture-in-Picture, TV support |
+| **Cross‑platform** | Web, Expo, Windows, TV support |
 
 
 
@@ -20,7 +20,7 @@ The most battle-tested open-source video player component for React Native — n
 
 | Version | State | Architecture |
 |---------|-------|--------------|
-| **v5 and lower** | ❌ End-of-life | Old Architecture [Commercial Support Available](https://www.thewidlarzgroup.com/blog/react-native-video-upgrade-challenges-custom-maintenance-support#how-we-can-help?utm_source=rnv&utm_medium=readme&utm_id=upgradev5) |
+| **v5 and lower** | ❌ End-of-life [Commercial Support Available](https://www.thewidlarzgroup.com/blog/react-native-video-upgrade-challenges-custom-maintenance-support#how-we-can-help?utm_source=rnv&utm_medium=readme&utm_id=upgradev5) | Old Architecture |
 | **v6** | 🛠 Maintained (community + TWG) | Old + New (Interop Layer) |
 | **v7** | 🚀 Active Development | Old + New (Full Support) |
 
@@ -51,9 +51,8 @@ export default () => (
 
 ## 🧩 Optional Modules
 
-<a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=banner" target="_blank">
-  <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-new.png" alt="Offline SDK Preview" width="40%" align="right" />
-</a>
+
+<a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=banner"><img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-new.png" alt="Offline SDK Preview"></a> width="40%" align="right" />
 
 ### 1 · 📥 Offline SDK
 
@@ -61,13 +60,13 @@ Enable offline streaming with full control over downloads, license lifecycle, se
 
 - Track selection (bitrate, audio, subtitles)
 - Pause / resume & background queueing
-- Expiration windows & auto-cleanup
+- Expiration & auto-cleanup
 - Built for Android & iOS
 - → [Read the SDK Docs](https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=modules-sdk-text)
 
 ### 2 · 🧪 Plugin Architecture
 
-Write your own plugins to extend download logic, attach analytics or add custom workflows — **without forking** the core SDK.  
+Write your own plugins to extend library logic, attach analytics or add custom workflows - **without forking** the core SDK.  
 → [Plugin documentation](https://docs.thewidlarzgroup.com/react-native-video/other/plugin)
 
 
@@ -114,3 +113,12 @@ Write your own plugins to extend download logic, attach analytics or add custom 
 - 💬 [Join the Discord](https://discord.gg/9WPq6Yx)
 - 🐦 [Follow on X / Twitter](https://x.com/TheWidlarzGroup)
 - 💼 [TWG on LinkedIn](https://linkedin.com/company/the-widlarz-group)
+
+## 🏢 Adopters
+
+Following is a partial list of companies happily using react-native-video in production to craft applications.  
+Want to see your company here? [Submit a PR!](https://github.com/react-native-video/react-native-video)
+
+- [Discord](https://discord.com)
+- [LesMills](https://www.lesmills.com)
+- [Amazon](https://www.amazon.com)
