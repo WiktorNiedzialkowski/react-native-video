@@ -51,8 +51,9 @@ export default () => (
 
 ## 🧩 Optional Modules
 
-
-<a href="https://docs.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=banner"><img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-new.png" alt="Offline SDK Preview"></a> width="40%" align="right" />
+<a href="https://www.thewidlarzgroup.com/offline-sdk?utm_source=rnv&utm_medium=readme&utm_id=banner">
+  <img src="https://raw.githubusercontent.com/WiktorNiedzialkowski/react-native-video/master/docs/assets/baners/sdk-banner-retina-new.png" alt="Offline SDK Preview" width="40%" align="right" />
+</a>
 
 ### 1 · 📥 Offline SDK
 
